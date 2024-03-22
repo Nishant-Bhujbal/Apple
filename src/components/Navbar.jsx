@@ -1,6 +1,7 @@
 import React from 'react'
 import {appleImg,bagImg,searchImg} from '../utils'
 import {navLists} from '../constants'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -12,7 +13,9 @@ const Navbar = () => {
 
                 {navLists.map((nav,i) => (
                     <div key={i} className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all">
+                        <Link to={nav}>
                         {nav}
+                        </Link>
                     </div>
                 ))}
             </div>

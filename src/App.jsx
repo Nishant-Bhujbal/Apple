@@ -1,21 +1,20 @@
 import Navbar from "./components/Navbar"
-import Hero from "./components/Hero"
-import Highlights from "./components/Highlights"
-import Model from "./components/Model"
-import Features from "./components/Features"
-import HowItWorks from "./components/HowItWorks"
+
 import Footer from "./components/Footer"
+import Phone from "./components/iPhone/Phone"
+import { Route, Routes } from "react-router-dom"
+import IPad from "./components/iPad/IPad"
 
 const App = () => {
 
   return (
     <main className=" bg-black scroll-smooth" >
       <Navbar />
-      <Hero /> 
-      <Highlights />
-      <Model />
-      <Features />
-      <HowItWorks />
+      <Routes>
+        <Route path="/" element={<Phone/>} />
+        <Route path="/iPhone" element={<Phone/>} />
+        <Route path="/iPad" element={<IPad />} />
+      </Routes>
       <Footer />
     </main>
   )

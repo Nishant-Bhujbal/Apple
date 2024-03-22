@@ -10,6 +10,28 @@ import highlightThirdmv from "/assets/videos/hightlight-sec.mp4";
 import highlightFourthmv from "/assets/videos/hightlight-fourth.mp4";
 import exploremv from "/assets/videos/explore.mp4";
 import framemv from "/assets/videos/frame.mp4";
+import ipadframevideo from "/assets/videos/ipadframevideo.mp4";
+import ipadintrovideo from "/assets/videos/IpadIntroFrame.mp4";
+
+export const iframevideo = ipadframevideo;
+export const iintrovideo = ipadintrovideo;
+
+
+import camerapt from "/assets/images/cameraphoto.jpg"
+import ipadchip from "/assets/images/ipadchip.jpg"
+import ipadframe from "/assets/images/ipadframe.png"
+import ipadintro from "/assets/images/IpadIntro.png"
+import ipadm2logo from "/assets/images/ipadm2logo.png"
+import ipadimage from "/assets/images/ipadimage.jpg"
+import core8 from "/assets/images/8core.png"
+
+export const cameraphoto = camerapt;
+export const ichip = ipadchip;
+export const iframe = ipadframe;
+export const iintro = ipadintro;
+export const ilogo = ipadm2logo;
+export const ipadimg = ipadimage
+export const core = core8;
 
 import apple from "/assets/images/apple.svg";
 import search from "/assets/images/search.svg";
