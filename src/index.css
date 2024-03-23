@@ -102,6 +102,10 @@ canvas {
     @apply absolute w-[95%] h-[90%] rounded-[56px] overflow-hidden
   }
 
+  .ipad-hiw-video {
+    @apply absolute w-[95%] h-[90%] overflow-hidden
+  }
+
   .hiw-text-container {
     @apply flex md:flex-row flex-col justify-between items-start gap-24
   }
