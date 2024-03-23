@@ -36,7 +36,7 @@ const Hero = () => {
   },[])
 
   return (
-    <section className="w-full nav-height bg-black relative overflow-auto">
+    <section className="w-full nav-height bg-black relative overflow-auto overflow-y-hidden">
       <div className=" h-5/6 w-full flex-center flex-col">
         <p id="hero" className="hero-title">Iphone 15 pro</p>
         <div className="md:w-10/12 w-9/12">

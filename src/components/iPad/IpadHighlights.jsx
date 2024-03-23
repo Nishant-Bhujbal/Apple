@@ -26,7 +26,7 @@ const IpadHighlights = () => {
           high frame rates faster than ever. All while enjoying all‑day battery
           life.
         </p>
-    </div>
+      </div>
         
             <div className="flex flex-col items-center">
             <img src={ichip} alt='ipadchip'/>

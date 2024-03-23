@@ -42,11 +42,17 @@ const IpadHero = () => {
             <source src={videoSrc}  type="video/mp4"/>
           </video>
       <div className="flex flex-col items-center">
-        {/* <p className="font-normal md:text-3xl text-l">Astonishing performance. Incredibly advanced</p> */}
-        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">Astonishing performance. Incredibly advanced</p>
-        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">displays. Superfast wireless connectivity. Next-level</p>
-        <p className="font-normal text-xs sm:text-sm  md:text-xl lg:text-3xl">Apple Pencil capabilities. Powerful new features in</p>
-        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">iPadOS 16. The ultimate iPad experience.</p>
+        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">Astonishing performance.</p>
+        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">Incredibly advanced displays.</p>
+        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">Superfast wireless connectivity.</p>
+        <p className="font-normal text-xs sm:text-sm  md:text-xl lg:text-3xl">Next-level Apple Pencil capabilities.</p>
+        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">Powerful new features in iPadOS 16.</p>
+        <p className="font-normal text-xs sm:text-sm md:text-xl lg:text-3xl">The ultimate iPad experience.</p>
+        {/* <div className="flex flex-col items-center mt-5 sm:max-w-3xl max-w-sm ml-3 mr-3">
+        <p className=" text-gray-200 font-normal text-sm sm:text-base md:text-xl lg:text-3xl">
+        Astonishing performance.Incredibly advanced displays.Superfast wireless connectivity.Next-level Apple Pencil capabilities. Powerful new features in iPadOS 16.The ultimate iPad experience.
+        </p>
+      </div> */}
             <p className="link">Watch the film 
             <img src={watchImg} alt='watch' className=" ml-2"/>
             </p>
