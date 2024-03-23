@@ -3,7 +3,7 @@ import { core, ichip, iintro, ipadimg } from '../../utils'
 
 const IpadHighlights = () => {
   return (
-    <section className="w-full h-full bg-black mt-32">
+    <section className="w-full h-full bg-black sm:mt-32  overflow-auto">
     <div className="w-full flex-col flex-center">
         <div className="flex flex-col items-center mb-5">
             <p className="font-normal text-xl sm:text-3xl md:text-5xl lg:text-7xl">M2 chip.</p>

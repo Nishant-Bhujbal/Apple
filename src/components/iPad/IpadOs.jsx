@@ -3,7 +3,7 @@ import { ipadimg } from '../../utils'
 
 const IpadOs = () => {
   return (
-    <section className="w-full bg-black mt-32">
+    <section className="w-full bg-black sm:mt-32 mt-20 overflow-auto">
         <div className="flex flex-center">
             <div>
             <p className="font-normal text-xl sm:text-3xl md:text-5xl lg:text-7xl"> iPadOS.</p>

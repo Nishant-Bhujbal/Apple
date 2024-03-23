@@ -9,7 +9,7 @@ const Navbar = () => {
         <nav className="flex w-full screen-max-width">
             <img src={appleImg} alt='Apple' width={14} height={18} />
 
-            <div className=" flex flex-1 justify-center max-sm:hidden">
+            <div className=" flex flex-1 justify-center">
 
                 {navLists.map((nav,i) => (
                     <div key={i} className="px-5 text-sm cursor-pointer text-gray hover:text-white transition-all">

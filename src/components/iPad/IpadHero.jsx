@@ -34,7 +34,7 @@ const IpadHero = () => {
     },[])
     
   return (
-    <section className="w-full bg-black">
+    <section className="w-full bg-black overflow-auto">
       <div className=" h-5/6 w-full flex-center flex-col mb-32">
         <p className="sm:text-5xl text-white text-3xl">IPad Pro</p>
         <div className="md:w-10/12 w-9/12">
