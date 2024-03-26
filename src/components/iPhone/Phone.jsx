@@ -8,11 +8,14 @@ import HowItWorks from "./HowItWorks"
 const Phone = () => {
   return (
     <>
+    <div className=" overflow-auto overflow-y-hidden">
+
        <Hero /> 
       <Highlights />
       <Model />
       <Features />
       <HowItWorks />
+    </div>
     </>
   )
 }

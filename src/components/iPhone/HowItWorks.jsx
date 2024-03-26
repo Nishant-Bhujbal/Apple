@@ -28,7 +28,7 @@ const HowItWorks = () => {
     })
 
   return (
-   <section className="common-padding overflow-auto overflow-x-hidden">
+   <section className="common-padding overflow-x-hidden overflow-y-hidden ">
      <div className="screen-max-width">
         <div id="chip" className="flex-center w-full my-20">
             <img src={chipImg} alt='chip'  width={180} height={180}/>
